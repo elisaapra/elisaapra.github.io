@@ -8,6 +8,30 @@
     <div class="container content">
       <header class="masthead">
         <h3 class="masthead-title">
+          <div class="custom-menu-wrapper">
+    <div class="pure-menu custom-menu custom-menu-top">
+        <a href="#" class="pure-menu-heading custom-menu-brand">Brand</a>
+        <a href="#" class="custom-menu-toggle" id="toggle"><s class="bar"></s><s class="bar"></s></a>
+    </div>
+    <div class="pure-menu pure-menu-horizontal pure-menu-scrollable custom-menu custom-menu-bottom custom-menu-tucked" id="tuckedMenu">
+        <div class="custom-menu-screen"></div>
+        <ul class="pure-menu-list">
+            <li class="pure-menu-item"><a href="#" class="pure-menu-link">Home</a></li>
+          <li class="pure-menu-item"><a href="/about" class="pure-menu-link">About</a></li>
+           <li class="pure-menu-item"><a href="/work" class="pure-menu-link">Work</a></li>
+          <li class="pure-menu-item"><a href="/contact" class="pure-menu-link">Contact</a></li>
+          <li class="pure-menu-item"><a href="http://elisaapra.tumblr.com" class="pure-menu-link">Blog</a></li>
+        </ul>
+    </div>
+</div>
+<script>
+(function (window, document) {
+document.getElementById('toggle').addEventListener('click', function (e) {
+    document.getElementById('tuckedMenu').classList.toggle('custom-menu-tucked');
+    document.getElementById('toggle').classList.toggle('x');
+});
+})(this, this.document);
+</script>
           <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
           <small>{{ site.tagline }}</small>
         </h3>
