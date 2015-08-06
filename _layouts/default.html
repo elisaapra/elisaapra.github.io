@@ -5,35 +5,35 @@
 
   <body>
 
-    <div class="container content">
-        <h3 class="masthead-title">
-          <div class="custom-menu-wrapper">
-    <div class="pure-menu custom-menu custom-menu-top">
-        <a href="#" class="pure-menu-heading custom-menu-brand">elisa aprà</a>
-        <a href="#" class="custom-menu-toggle" id="toggle"><s class="bar"></s><s class="bar"></s></a>
-    </div>
-    <div class="pure-menu pure-menu-horizontal pure-menu-scrollable custom-menu custom-menu-bottom custom-menu-tucked" id="tuckedMenu">
-        <div class="custom-menu-screen"></div>
-        <ul class="pure-menu-list">
-            <li class="pure-menu-item"><a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a></li>
-         <small>
-          <li class="pure-menu-item"><a href="/about" class="pure-menu-link">About</a></li>
-           <li class="pure-menu-item"><a href="/work" class="pure-menu-link">Work</a></li>
-          <li class="pure-menu-item"><a href="/contact" class="pure-menu-link">Contact</a></li>
-          <li class="pure-menu-item"><a href="http://elisaapra.tumblr.com" class="pure-menu-link">Blog</a></li>
-          </small>
-        </ul>
-    </div>
-</div>
-<script>
-(function (window, document) {
-document.getElementById('toggle').addEventListener('click', function (e) {
-    document.getElementById('tuckedMenu').classList.toggle('custom-menu-tucked');
-    document.getElementById('toggle').classList.toggle('x');
-});
-})(this, this.document);
-</script>
-        </h3>
+    <div class="container-narrow">
+
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Elisa Apr&agrave</a>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+
+            <ul class="nav navbar-nav navbar-right">
+            
+              <li><a href="/about">About</a></li>
+              <li><a href="/work">Work</a></li>
+              <li><a href="/blog">Blog</a></li>
+
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
     
       <main>
         {{ content }}
