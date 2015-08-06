@@ -5,6 +5,4 @@ photo: rh.png
 published: true
 ---
 
-I was so thrilled to get to create the poster and shirt graphics
-            for Hanford Center Stage's spring 2014 production of
-            Larry Blamire's Robin Hood.
+Poster and shirt design for Hanford Center Stage's 2014 production of _Robin Hood._
