@@ -8,7 +8,7 @@ relative_permalinks: true
 title:               elisa aprà
 tagline:             designer, student, pasta enthusiast
 url:                 elisaapra.com
-paginate:            1
+paginate:            9
 baseurl:             ""
 
 # Assets
@@ -21,7 +21,7 @@ sass:
 # About/contact
 author:
   name:              Elisa Aprà
-  url:               https://instagram.com/gracidea
+  url:               https://twitter.com/elisaapra
   email:             elisa.apra@gmail.com
 
 # Custom vars
