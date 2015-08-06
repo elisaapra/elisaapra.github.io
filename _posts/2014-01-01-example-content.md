@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: portfolio
 title: Robin Hood
 photo: rh.png
 ---

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: portfolio
 title: Rough Draft
 photo: roughdraft.jpg
 ---

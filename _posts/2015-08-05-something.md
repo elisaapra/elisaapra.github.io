@@ -1,14 +1,10 @@
 ---
 published: true
-layout: post
+layout: portfolio
 title: There's No Place Like Home
 photo: home.jpg
 ---
 
-
----
-published: true
----
 
 ## the quick brown fox
 
