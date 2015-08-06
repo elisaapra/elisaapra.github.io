@@ -5,6 +5,7 @@ published: true
 ---
 
 
+
 <div class="content">
         <div class="row content-center">
           <div class="col-md-4 col-sm-6 col-xs-12">
@@ -24,6 +25,11 @@ published: true
            
             </div>
         </div>
-
-
-
+        
+        <ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
