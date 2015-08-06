@@ -5,4 +5,4 @@ photo: roughdraft.jpg
 published: true
 ---
 
-Lettering piece for a celebration of 2015 Scholastic Journalism Week.
+Lettering piece created as part of a celebration of 2015 Scholastic Journalism Week.
