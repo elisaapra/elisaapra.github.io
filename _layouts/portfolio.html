@@ -11,9 +11,9 @@ published: true
           <p>{{ content }}
         </div>
           <div class="col-md-8 col-sm-8 col-xs-12">
-            {% for page.url %}
+            {% for page at page.url %}
             a
-            <img class="img-responsive" src="/img/thumb/{{ post.photo }}" alt="img"/>
+            <img class="img-responsive" src="/img/large/{{ post.photo }}" alt="img"/>
             {% endfor %}
           </div>
 
