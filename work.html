@@ -3,52 +3,6 @@ layout: default
 published: true
 ---
 
-  <div class="content">
-        <div class="content-center">
-      <div class="container-fluid work-grid">
-      <div class="row pad">
-
-        <div class="work col-md-12 col-sm-3 col-xs-4">
-          {% for post in site.posts limit: 3 %}
-{% include indexpostitem.html %}
-{% endfor %}
-
-
-        </div>
-        <div class="work col-md-4 col-sm-3 col-xs-4">
-         {% for post in site.posts limit: 3 %}
-{% include indexpostitem.html %}
-{% endfor %}
-
-
-        </div>
-        <div class="work col-md-4 col-sm-3 col-xs-4">
-          {% for post in site.posts limit: 3 %}
-{% include indexpostitem.html %}
-{% endfor %}
-
-
-        </div>
-        <div class="work col-md-4 col-sm-3 col-xs-4">
-         {% for post in site.posts limit: 3 %}
-{% include indexpostitem.html %}
-{% endfor %}
-
-
-        </div>
-
-        <div class="work col-md-4 col-sm-3 col-xs-4">
-
-          {% for post in site.posts limit: 3 %}
-{% include indexpostitem.html %}
-{% endfor %}
-        </div>
-      
-       
-      </div>
-    </div>
-  </div>
-</div>
 <div class="posts">
   {% for post in paginator.posts %}
   <article class="post">
