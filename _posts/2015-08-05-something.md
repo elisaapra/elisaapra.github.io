@@ -1,5 +1,8 @@
 ---
 published: true
+layout: post
+title: There's No Place Like Home
+photo: home.jpg
 ---
 
 
