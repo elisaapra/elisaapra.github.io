@@ -5,5 +5,4 @@ layout: portfolio
 photo: talkingwith.jpg
 ---
 
-I had the pleasure of working with Hanford Center Stage again on a
-            poster for their 2015 production of Jane Martin's _Talking With._
+Poster for Hanford Center Stage's 2015 production of Jane Chatham's _Talking With..._
