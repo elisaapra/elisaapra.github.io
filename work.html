@@ -12,11 +12,7 @@ published: true
         
 		{% for post in site.posts %}
 		<div class="work col-md-12 col-sm-3 col-xs-4">
-				<img src="{{ site.url }}/img/thumb/{{ post.photo }}" alt="img"/>
-				<figcaption>
-					<h3>{{ post.caption_header}}</h3>
-					<p>{{ post.caption }}</p>
-				</figcaption>
+          <a href="{{ post.url }}"><img src="{{ site.url }}/img/thumb/{{ post.photo }}" alt="img"/></a>
         </div>
 		
 		{% endfor %}
