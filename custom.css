@@ -71,6 +71,7 @@
     color: tomato;
     font-size: 2.5em;
     text-transform: lowercase;
+  	background-color: powderblue;
   }
 .navbar-default  .navbar-brand:hover {
     color: skyblue;
