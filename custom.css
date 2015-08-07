@@ -105,19 +105,19 @@
   /* General Type */
 
   body {
-    font-family: 'Lato';
+    font-family: 'ff-meta-serif-web-pro';
     color: dimgray;
   }
 
   h1 {
-    font-family: 'Playfair Display';
+    font-family: 'brandon-grotesque';
     font-weight: 400;
     font-style: italic;
   text-align: center;
   }
 
   h4 {
-    font-family: 'Lato';
+    font-family: 'brandon-grotesque';
     margin-top: 0px;
     margin-bottom: 5px;
     font-weight:700;
@@ -127,7 +127,7 @@
 
   h2 {
     text-align: justify;
-    font-family: 'Playfair Display';
+    font-family: 'brandon-grotesque;
     margin-top: 0px;
     margin-bottom: 20px;
     color: indigo;
