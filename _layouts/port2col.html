@@ -16,7 +16,7 @@ published: true
   {% if page.images %}
     <div class="col-md-8 col-sm-8 col-xs-12">
     {% for image in page.images %}
-        <img class="img-responsive" src="/img/large/{{ page.image }}" alt="img"/>
+        <img class="img-responsive" src="/img/large/{{ image }}" alt="img"/>
     {% endfor %}
     </div>
 {% endif %}
@@ -24,7 +24,7 @@ published: true
 {% if page.images %}
   <div class="col-md-8 col-sm-8 col-xs-12">
   {% for image in page.images %}
-      <img class="img-responsive" src="/img/large/{{ page.image }}" alt="img"/>
+      <img class="img-responsive" src="/img/large/{{ image }}" alt="img"/>
   {% endfor %}
   </div>
 {% endif %}
