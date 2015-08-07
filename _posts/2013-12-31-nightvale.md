@@ -4,14 +4,14 @@ title: Logos of Night Vale
 published: true
 photo: moonlite.png
 images: 
+  - nvcr.png
   - moonlite.png
-  - desertflower.png
+  - opera.jpg
   - darkowl.png
+  - strexcorp.jpg
   - ginos.jpg
   - tourniquet.jpg
-  - nvcr.png
-  - opera.jpg
-  - strexcorp.jpg
+  - desertflower.png
 ---
 
 
