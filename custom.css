@@ -225,6 +225,7 @@ hr {
 /* Footer */
 
 .footer {
+  font-family: 'brandon-grotesque';
   text-transform: uppercase;
   margin: 0 auto;
   max-width: 900px;
