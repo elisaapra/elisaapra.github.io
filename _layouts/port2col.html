@@ -14,20 +14,23 @@ published: true
           <p>{{ content }}
 
         </div>
-  {% if page.images %}
     <div class="col-md-8 col-sm-8 col-xs-12">
+      {% if page.images %}
       {% for image in page.images limit: 4 %}
         <img class="img-responsive" src="/img/large/{{ image }}" alt="img"/>
     {% endfor %}
+      {% endif %}
     </div>
-{% endif %}
 
-{% if page.images %}
+
+
   <div class="col-md-8 col-sm-8 col-xs-12">
+    {% if page.images %}
     {% for image in page.images limit:4 offset: 4%}
       <img class="img-responsive" src="/img/large/{{ image }}" alt="img"/>
   {% endfor %}
+    {% endif %}
   </div>
-{% endif %}
+
 
     </article>
