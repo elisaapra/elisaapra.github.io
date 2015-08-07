@@ -185,8 +185,8 @@ a:hover {
    margin:  0.25rem;
    padding:  1rem;
    width:  100%;
-   max-height: 16em;
-   max-width: 20em;
+   max-height: 400px;
+   max-width: 500px;
   }
 
   .work-grid {
