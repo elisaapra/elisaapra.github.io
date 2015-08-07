@@ -13,18 +13,18 @@ published: true
           <p>{{ content }}
 
         </div>
-  {% if page.photos %}
+  {% if page.images %}
     <div class="col-md-8 col-sm-8 col-xs-12">
-    {% for photo in page.photos %}
-        <img class="img-responsive" src="/img/large/{{ page.photo }}" alt="img"/>
+    {% for image in page.images %}
+        <img class="img-responsive" src="/img/large/{{ page.image }}" alt="img"/>
     {% endfor %}
     </div>
 {% endif %}
 
-{% if page.photos %}
+{% if page.images %}
   <div class="col-md-8 col-sm-8 col-xs-12">
-  {% for photo in page.photos %}
-      <img class="img-responsive" src="/img/large/{{ page.photo }}" alt="img"/>
+  {% for image in page.images %}
+      <img class="img-responsive" src="/img/large/{{ page.image }}" alt="img"/>
   {% endfor %}
   </div>
 {% endif %}

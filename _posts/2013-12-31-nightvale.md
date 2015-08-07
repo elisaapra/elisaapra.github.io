@@ -3,7 +3,7 @@ layout: port2col
 title: Logos of Night Vale
 published: true
 photo: moonlite.png
-photos: 
+images: 
   - darkowl.png
   - desertflower.png
   - ginos.jpg
