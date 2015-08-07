@@ -5,6 +5,7 @@ published: true
 
 
 
+
 <article class="portfolio">
         <div class="col-md-4 col-sm-4 col-xs-12">
           <h4>{{ page.title }}</h4>
@@ -12,17 +13,17 @@ published: true
           <p>{{ content }}
 
         </div>
-  {% if post.photos %}
+  {% if page.photos %}
     <div class="col-md-8 col-sm-8 col-xs-12">
-    {% for photo in post.photos limit: 4 %}
+    {% for photo in page.photos %}
         <img class="img-responsive" src="/img/large/{{ page.photo }}" alt="img"/>
     {% endfor %}
     </div>
 {% endif %}
 
-{% if post.photos %}
+{% if page.photos %}
   <div class="col-md-8 col-sm-8 col-xs-12">
-  {% for photo in post.photos limit: 4 offset:4 %}
+  {% for photo in page.photos %}
       <img class="img-responsive" src="/img/large/{{ page.photo }}" alt="img"/>
   {% endfor %}
   </div>
