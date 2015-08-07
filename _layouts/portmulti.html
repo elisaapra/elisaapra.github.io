@@ -14,7 +14,7 @@ published: true
         </div>
   {% if post.photos %}
     <div class="col-md-8 col-sm-8 col-xs-12">
-    {% for photo in page.photos %}
+    {% for photo in post.photos %}
         <img class="img-responsive" src="/img/large/{{ page.photo }}" alt="img"/>
     {% endfor %}
     </div>
