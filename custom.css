@@ -11,6 +11,15 @@
 .site-content {
   flex: 1;
 }
+
+#wrap {
+  min-height: 100%;
+  height: auto;
+  /* Negative indent footer by its height */
+  margin: 0 auto -60px;
+  /* Pad bottom by footer height */
+  padding: 0 0 60px;
+}
   /* Custom container */
   .container-narrow {
     margin: 0 auto;
@@ -39,7 +48,7 @@
 
 .content-center {
         max-width: 100%;
-  
+
       }
 .double {
   margin-bottom: 3rem;
@@ -228,6 +237,7 @@ hr {
   text-transform: uppercase;
   margin: 0 auto;
   max-width: 900px;
+  height: 60px;
   letter-spacing: 2px;
     flex: none;
 }
