@@ -8,7 +8,7 @@ published: true
 
 <div class="content">
         <div class="row content-center">
-          <div class="col-md-4 col-sm-6 col-xs-12">
+          <div class="col-md-12 col-sm-12 col-xs-12">
             <img class="img-responsive" src="/img/elisa.jpg">
 
           </div>
