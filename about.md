@@ -6,14 +6,15 @@ published: true
 
 
 
+
 <div class="content">
         <div class="row content-center">
-          <div class="col-md-12 col-sm-12 col-xs-12">
+          <div class="col-md-6 col-sm-6 col-xs-12">
             <img class="img-responsive" src="/img/elisa.jpg">
 
           </div>
 
-          <div class="col-md-8 col-sm-6 col-xs-12">
+          <div class="col-md-6 col-sm-6 col-xs-12">
             <h2>Hi there! I'm Elisa. </h2>
             <p class="about">
               I'm a graphic designer currently studying at the University of Southern California in Los Angeles. I get really excited about things like posters, branding, and lettering.
