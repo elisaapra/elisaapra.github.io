@@ -9,7 +9,7 @@ published: true
 <div class="content">
         <div class="row content-center">
           <div class="col-md-4 col-sm-6 col-xs-12">
-            <img class="img-responsive" src="http://placehold.it/400x500">
+            <img class="img-responsive" src="/img/elisa.jpg">
 
           </div>
 
@@ -22,10 +22,10 @@ published: true
               <br><br>
             When I'm not working on my latest design project, you can find me attempting a new vegan recipe, continuing my quest to cover everything
               I own in washi tape, or on <a href="http://twitter.com/aviliane">Twitter</a> and <a href="http://instagram.com/gracidea">Instagram.</a>
-           
+
             </div>
         </div>
-        
+
         <ul>
-  
+
 </ul>
