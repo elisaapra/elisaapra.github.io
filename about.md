@@ -7,6 +7,7 @@ published: true
 
 
 
+
 <div class="content">
         <div class="row content-center">
           <div class="col-md-8 col-md-offset-2 col-sm-12 col-xs-12">
@@ -22,7 +23,7 @@ published: true
               I'm always on the lookout for fun new projects. If you think you've got one, send me an <a href="mailto:elisa.apra@gmail.com">email!</a>
               <br><br>
             When I'm not working on my latest design project, you can find me attempting a new vegan recipe, continuing my quest to cover everything
-              I own in washi tape, or on <a href="http://twitter.com/aviliane">Twitter</a> and <a href="http://instagram.com/gracidea">Instagram.</a>
+              I own in washi tape, or on <a href="http://instagram.com/gracidea">Instagram.</a>
 
             </div>
         </div>
