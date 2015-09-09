@@ -2,6 +2,8 @@
   body {
     padding-top: 20px;
     padding-bottom: 40px;
+    display: table;
+    width: 100%;
   }
 .site {
   display: flex;
@@ -237,6 +239,7 @@ hr {
   text-transform: uppercase;
   margin: 0 auto;
   max-width: 900px;
+  display: table-row;
   height: 60px;
   letter-spacing: 2px;
     flex: none;
