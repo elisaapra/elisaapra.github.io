@@ -14,7 +14,7 @@ published: true
 
           </div>
 
-          <div class="col-md-8 col-md-offset-2 col-sm-6 col-sm-offset-3 col-xs-12">
+          <div class="col-md-10 col-md-offset-1 col-sm-6 col-sm-offset-3 col-xs-12">
             <h2>Hi there! I'm Elisa. </h2>
             <p class="about">
               I'm a graphic designer currently studying at the University of Southern California in Los Angeles. I get really excited about things like posters, branding, and lettering.
