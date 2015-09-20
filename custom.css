@@ -248,6 +248,10 @@ hr {
 .col-md-4 .col-sm-3 .col-xs-4 {
   padding-bottom: 4px;
 }
+
+img > .col-md-4 .col-sm-3 .col-xs-4 {
+  padding-bottom: 4px;
+}
 /* about */
 @media (max-width: @screen-xs-max) {
   .col-md-4 .col-sm-6 .col-xs-12 {
