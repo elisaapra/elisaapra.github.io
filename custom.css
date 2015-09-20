@@ -200,6 +200,10 @@ a:hover {
    max-width: 20em;
   }
 
+  .work1 {
+    padding-bottom: 1rem;
+  }
+
   .work-grid {
     display: flex;
     align-items: center;
