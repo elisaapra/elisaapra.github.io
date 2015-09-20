@@ -17,7 +17,7 @@ published: true
 
 
 		{% for post in site.posts %}
-		<div class="work1 col-md-4 col-sm-3 col-xs-4">
+		<div class="work1 col-md-4 col-sm-4 col-xs-6">
           <a href="{{ post.url }}"><img class="img-responsive" src="/img/thumb/{{ post.photo }}" alt="img"/></a>
         </div>
 
