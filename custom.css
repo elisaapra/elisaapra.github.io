@@ -249,7 +249,7 @@ hr {
   padding-bottom: 4px;
 }
 
-img > .col-md-4 .col-sm-3 .col-xs-4 {
+.col-md-4 .col-sm-3 .col-xs-4 > img{
   padding-bottom: 4px;
 }
 /* about */
