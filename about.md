@@ -12,7 +12,7 @@ published: true
 <div class="content">
         <div class="row content-center">
           <div class="col-md-8 col-md-offset-2 col-sm-12 col-xs-12">
-            <img class="img-responsive" src="/img/elisa.jpg">
+            
 
           </div>
 
